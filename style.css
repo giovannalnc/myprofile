@@ -1,5 +1,5 @@
 body{
-  background: rgb(245,245,245);
+  background-color: rgb(245,245,245);
   font-size: 25px;
   font-family: Helvetica;
   text-align: center;
@@ -7,7 +7,7 @@ body{
 }
 
 #container {
-  width: 500px;
+  width: 700px;
   margin: 0 auto;
 }
 
@@ -17,31 +17,6 @@ body{
   background-color: white;
   border-radius: 4px;
   margin: 20px;
-}
-
-.round {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-a {
-  color: #605770;
-  font-size: 15px;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: none;
-  color: black;
-}
-
-.btn {
-  background-color: #edf2f4;
-  padding: 3px;
-  color: #605770;
-  font-weight: bold;
-  border-radius: 10px;
 }
 
 h1{
@@ -62,6 +37,44 @@ p{
   font-family: Montserrat;
   font-size: 15px;
   color: #605770;
+}
+
+.round {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.shadowed {
+  box-shadow: 2px 2px 1px black;
+}
+
+.btn2 {
+  text-decoration: none;
+  color: #9d0208;
+}
+
+.btn2:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.btn:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.btn {
+  background-color: whitesmoke;
+  padding: 8px;
+  color: #605770;
+  font-weight: lighter;
+  font-size: 15px;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 1px solid #605770;
+  opacity: 10;
 }
 
 .list-inline {
